@@ -1,0 +1,41 @@
+@media only screen and (min-width: 1200px) {
+    con.ui.container {
+        width: 1300px;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    con.ui.container {
+        width: 820px;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+}
+.wide.column>div>div>.ui.container>.ui.container>.ui.segment>.ui.items>.item>.content>a>.header:not(.ui) {
+    font-size: .98571429em;
+}
+.wide.column>div>div>.ui.container>.ui.container>.ui.segment>.ui.items>.item .extra {
+    font-size: .78em;
+}
+.wide.column>div>div>.ui.container>.ui.container>.ui.segment {
+    overflow: auto;
+    max-height: 400px;
+}
+.wide.column>.ui.items>.item>.content>.description {
+    font-size: 1.19em;
+}
+.ui.inverted.stacked.segment {
+    overflow: auto;
+    height: 350px;
+}
+body ::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ui.segment {
+    box-shadow:none;
+    margin: 0;
+    border: none;
+}

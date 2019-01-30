@@ -1,0 +1,15 @@
+
+/* @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin'); */
+/* @import '../node_modules/semantic-ui-css/semantic.min.css'; */
+
+body {
+    background-image: url(./images/image-49149110-abstract-desktop-wallpapers-and-backgrounds.jpg) !important;
+    background-attachment: fixed !important;
+    background-size: contain !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+} 
+
+i {
+    cursor: pointer;
+}

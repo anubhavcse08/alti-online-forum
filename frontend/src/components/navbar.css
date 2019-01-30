@@ -1,0 +1,50 @@
+.ui.menu .item {
+    padding: 1em 1em !important;
+    position: unset !important;
+}
+.ui.menu .item>img:not(.ui) {
+    width: 5.0em !important; 
+}
+.ui.menu:not(.vertical) .item>.button {
+    font-size: 1.2em !important;
+}
+.altiOnlineForum {
+    font-size: 26px;
+}
+
+@media only screen and (max-width: 667px) {
+    .ui.stackable.menu .item {
+        width: 100%;
+    }
+    .ui.menu:not(.vertical) .item>.button {
+        width: 100% ;
+    }
+    .altiOnlineForum {
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .ui.menu:not(.vertical) .item>.button {
+        width: 100% ;
+    }
+    .ui.menu .item>img:not(.ui) {
+        width: 4.0em !important; 
+    }
+    .altiOnlineForum {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 367px) {
+    .altiOnlineForum {
+        font-size: 20px;
+    }
+    .ui.menu .item>img:not(.ui) {
+        width: 3.0em !important; 
+    }
+}
+@media only screen and (max-width: 300px) {
+    .altiOnlineForum {
+        font-size: 17px;
+    }
+}
